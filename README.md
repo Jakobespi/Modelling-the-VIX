@@ -1,14 +1,13 @@
 # Modelling-the-VIX
 
-## Description:
+# Description:
 Here is the data modelling i used in my bachelors thesis in economics at the UNiversity of Copenhagen
 In this paper i generated 3 different econometric models used for modelling the VIX index.
 My models made use of variables that express whether or not key economic indicators came above, at, or below expectations.
 I then used these models to rebalance a MVP portfolio consisting of the S&P and VIXY ETF.
 I showed how making use of my models, one could outperform a MVP in a recession-prone environment.
-. 
 
-#Title: 
+My paper title:
 Minimizing Loss in Recession Prone Environments
 Modeling and predicting the CBOE VIX index
 using macro-news variables
