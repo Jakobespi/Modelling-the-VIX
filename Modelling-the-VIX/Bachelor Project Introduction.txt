@@ -1,0 +1,27 @@
+
+The financial landscape over the past three years has been highly volatile. Throughout this time
+investors have increasingly relied on the release of macroeconomic statistics to assess market conditions, shape their expectations, and guide their trading strategies. This heightened volatility becomes
+particularly evident when examining the first quarter of 2020, where the Standard and Poor’s (S&P)
+500 index experienced a significant 20% decline, followed by a 20% rebound in the subsequent quarter. The decision by the Federal Reserve to reduce the funds rate from 1.58% to 0.05% in March
+2020 played a pivotal role in driving this development. Such an event underscore the crucial role of
+volatility forecasting in financial models, and the influence of macroeconomic variables in these.
+
+In this paper I attempt to model the Chicago Board Options Exchange (CBOE) Volatility Index
+(VIX) from 2018 to 2023. To achieve this, I employ an HAR (Heterogeneous Autoregressive) model
+structure that incorporates implied volatility, as opposed to realized volatility initially proposed by
+Corsi (2009). The central hypothesis in this paper posits, that modelling the VIX can be improved
+upon by making use of news variables that reflect macroeconomic statistics and their deviations from
+expectations. My findings strongly reject this hypothesis, indicating that my HAR model’s performance is not significantly improved by incorporating these news variables. Nonetheless, I observe that my HAR model still achieves a certain acceptable level of fit, making it a viable tool for VIX prediction.
+
+To evaluate the prediction capabilities of the basic implied volatility HAR structure, I follow the
+evaluation methods employed by Campos et al. (2017). However, I deviate from their approach by
+assessing the model’s ability to guide portfolio weightings, in order to improve upon a basic Minimum
+Variance Portfolio (MVP) comprised of the S&P 500, and the ProShares VIX Short-Term Futures
+ETF (VIXY). Similar to Campos et al. (2017), I employ the model predictability evaluation methods
+proposed by Granger and Pesaran (2000).
+
+Based on the evaluation, I conclude that the HAR structure does not adequately predict the VIX.
+This outcome can be attributed to the VIX’s clear signs of short-term memory during the observed
+recession-prone period from 2020 to 2023. However, when applying an almost inverse decision rule
+than that implied by the HAR-model, I find potential for minimizing downside risk during highly
+volatile periods using a short-term memory model.
